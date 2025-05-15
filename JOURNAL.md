@@ -8,7 +8,7 @@ Other than being a keyboard, Lensboard has some unique features...
 ANALOG INPUTS!
 Physical controls are the single most satisfying thing in the world. Clicky, scrolly, wavy, whatever - as long as it's physical, it's fun.
 
-### The Plan
+## The Plan
 
 Quick overview:
 
@@ -21,7 +21,7 @@ Quick overview:
 - Fader
 - Mini touchscreen (for color pickers, music player)
 
-#### Audio Visualizer
+### Audio Visualizer
 
 Basically, this is a line of little rods, that move up and down based on a fft of the audio input. They're moved by ten litte stepper motors (because servos are noisy as hell).
 
@@ -35,7 +35,7 @@ Here is my amazing diagram:
 
 And these little green bars will move up and down with audio.
 
-#### Scrolly Wheel
+### Scrolly Wheel
 
 Its a scrolly wheel!
 
@@ -49,7 +49,7 @@ Apologies for my absolutely atrocious drawing skills, but here is what I'm think
 
 This will likely be 3d printed, and use a rotary encode so its nice and clicky.
 
-#### Fader
+### Fader
 
 I'm a bit of a lighting nerd, and as you know, lighting nerds love faders.
 
@@ -61,7 +61,7 @@ I'm a bit of a lighting nerd, and as you know, lighting nerds love faders.
 
 This is just a user mappable fader, but I'll probably set it up as a lighting thing, so I can move it and have stuff happen with lights in my room lol.
 
-#### Mini Touchscreen
+### Mini Touchscreen
 
 I just like the idea of having a tiny little display in the corner.
 
