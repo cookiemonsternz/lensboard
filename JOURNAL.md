@@ -27,7 +27,11 @@ Basically, this is a line of little rods, that move up and down based on a fft o
 
 Here is my amazing diagram:
 
-![audio visualiser demo](./audio-visualiser-demo.png)
+<img alt="A horizontal line of ten green rods, at various heights." src="./audio-visualiser-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
 
 And these little green bars will move up and down with audio.
 
@@ -37,7 +41,11 @@ Its a scrolly wheel!
 
 Apologies for my absolutely atrocious drawing skills, but here is what I'm thinking for the profile. 
 
-![scrolly wheel](./scrolly-wheel-demo.png)
+<img alt="Scrolly wheel diagram" src="./scrolly-wheel-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
 
 This will likely be 3d printed, and use a rotary encode so its nice and clicky.
 
@@ -45,7 +53,11 @@ This will likely be 3d printed, and use a rotary encode so its nice and clicky.
 
 I'm a bit of a lighting nerd, and as you know, lighting nerds love faders.
 
-![fader](./fader-demo.png)
+<img alt="Fader (slide potentiometer / slider)" src="./fader-demo.png" style="width: 64px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
 
 This is just a user mappable fader, but I'll probably set it up as a lighting thing, so I can move it and have stuff happen with lights in my room lol.
 
@@ -55,8 +67,16 @@ I just like the idea of having a tiny little display in the corner.
 
 It'll probably have a little media control center or color picker for art stuff or lighting programming.
 
-![media player](./touchscreen-demo-1.png)
-![HSV color picker](./touchscreen-demo-2.png)
+<img alt="Media Player with album art" src="./touchscreen-demo-1.png" style="width: 128px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+<img alt="HSV Color picker" src="./touchscreen-demo-2.png" style="width: 128px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
 
 #### Welp...
 Thats me for today! I'm gonna start some research on parts for tomorrow's entry, but thats my overall vision for this project. Looking forward to getting this going!
