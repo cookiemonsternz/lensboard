@@ -1,4 +1,4 @@
-# Lens Board
+# Lens Board - Journal 1 - 15/05/2025
 
 Lensboard is a keyboard! I did hackpad v1, but didn't get to do hackpad v2 due to exams :(
 Other than being a keyboard, Lensboard has some unique features...
@@ -78,3 +78,5 @@ It'll probably have a little media control center or color picker for art stuff 
   /* Chromium + Safari */
   image-rendering: pixelated;">
 
+#### Welp...
+Thats me for today! I'm gonna start some research on parts for tomorrow's entry, but thats my overall vision for this project. Looking forward to getting this going!
