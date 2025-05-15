@@ -77,3 +77,4 @@ It'll probably have a little media control center or color picker for art stuff 
   image-rendering: crisp-edges;
   /* Chromium + Safari */
   image-rendering: pixelated;">
+
