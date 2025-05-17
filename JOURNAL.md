@@ -129,6 +129,7 @@ Unfortunately, this approach has about all the cons you could think of:
 - Still doesn't solve the bending problem
 
 **Ultimately**, I'm probably going to go with the rotary encoder, mainly because of space, but I need to find a way to hide the actual encoder and support the other end, maybe this kind of system:
+
 <img alt="Scroll Wheel with Case" src="./scrolly-wheel-case-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
   /* Firefox */
   image-rendering: crisp-edges;
