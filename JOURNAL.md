@@ -80,3 +80,116 @@ It'll probably have a little media control center or color picker for art stuff 
 
 #### Welp...
 Thats me for today! I'm gonna start some research on parts for tomorrow's entry, but thats my overall vision for this project. Looking forward to getting this going!
+
+# Lens Board - Journal 2 - 17/05/2025
+
+Today I'm just doing some more thinking on some specifics of the parts I'll be using for the analog input on the keyboard. I'm just going over all the parts (touchscreen, wheel, faders, etc.) and figuring out how they'll be actually integrated into the board.
+
+So, without further ado:
+
+#### Touchscreen
+I'm just going to go with a generic TFT touchscreen for this. I'm decided between 1.8", 2.2", or 2.8"
+
+If I go 1.8", then I have less of a problem with it fitting on the keyboard, but 2.2" seems to be the most common size (and has some pretty decent resolutions for cheap).
+
+#### Scrolly Wheel
+
+As I see it, I have two or three major options for the scrolly wheel. 
+
+##### Option 1 - Rotary Encoder
+Basically, mount a rotary encoder horizontally, attach the wheel, and its done. 
+
+This approach is nice and easy, but also might have some problems.
+
+<img alt="Scroll Wheel Encoder" src="./scrolly-wheel-encoder-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+
+When the user presses down on the opposite side of the wheel to the encoder, there might be some flex, and there could also be some problems with the encoder legs bending, which might be very annoying.
+
+##### Option 2 - Motor with Encoder
+
+Option 2 is just a DC motor with a magnetic encoder.
+
+By doing this, you can have the microcontroller be aware of the wheel position as with a rotary encoder, but you can also move the motor to simulate the detents of a regular rotary encoder. You can also program it to have different motion profiles, like maybe a snap back to the center after moving.
+
+<img alt="Scroll Wheel Motor" src="./scrolly-wheel-motor-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+
+Unfortunately, this approach has about all the cons you could think of:
+- More expensive
+- More physically complicated
+- Harder to implement
+- Bulkier
+- Still doesn't solve the bending problem
+
+**Ultimately**, I'm probably going to go with the rotary encoder, mainly because of space, but I need to find a way to hide the actual encoder and support the other end, maybe this kind of system:
+<img alt="Scroll Wheel with Case" src="./scrolly-wheel-case-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+
+But I also want the wheel to be above the case, so more thought is required.
+
+#### Faders
+
+I think maybe two faders would be better, just looking at the layout of the touchscreen, scrolly wheel, and faders.
+
+Heres my beautiful mockup of how it might look. This section will sit to the right of the keyboard and there are two main layouts I'm considering.
+
+<img alt="Scroll Wheel with Case" src="./layout-demo-1.png" style="width: 144px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;"> <img alt="Scroll Wheel with Case" src="./layout-demo-2.png" style="width: 144px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;"> <img alt="Scroll Wheel with Case" src="./layout-demo-3.png" style="width: 144px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+
+Honestly, I don't mind all of these (ignoring the ugly colours lol), but I think either the first or third will be what I go with. It doesn't make too big of a difference to the electronics which I do, so for now I'll just design as if I'm doing the first one.
+
+As for the actual faders, they'll probably be around 60-80mm of travel, and other than that, just generic faders.
+
+#### Audio Visualiser
+
+Alright, the big, annoying, *"how the hell will I do this"* part!
+Well, I've had a bit of look and I've come up with a bit of a plan.
+
+First of all, choosing the motors.
+
+Aliexpress has once again come to the rescue, with some tiny steppers intended to be used in camera lenses, but will work perfectly fine for my use case. These are absolutely tiny motors, but they are fully dimensioned, which is an amazing attribute to have.
+![Motor Dimensions](motor-dimensions.png)
+
+Now onto the actual mechanism for driving a pin.
+I'm going to use a basic cam follower mechanism, which not only ensures smooth transitions between positions, but is also probably the easiest method to build, having no gears which are hellish to 3d print.
+
+<img alt="Pin Mechanism" src="./pin-mechanism-demo.gif" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+
+By controlling the rotation of the cam (because they're going to be steppers, not DC motors), you can control the height of the pin.
+
+*Quick sidenote, but the cam profile could technically be better utilized than the above diagram in order to maximise the distance resolution per degree, if it were similar to the following profile:*
+
+<img alt="Spiral Cam Profile" src="./spiral-cam-profile.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
+  /* Firefox */
+  image-rendering: crisp-edges;
+  /* Chromium + Safari */
+  image-rendering: pixelated;">
+
+*But this also limits the cam to moving in one direction, and adds a sudden drop when looping, so a pear shaped cam is better for my requirements.*
+
+Das ist alles, tomorrow I'll get started on the actual schematic design.
