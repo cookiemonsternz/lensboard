@@ -194,3 +194,52 @@ By controlling the rotation of the cam (because they're going to be steppers, no
 *But this also limits the cam to moving in one direction, and adds a sudden drop when looping, so a pear shaped cam is better for my requirements.*
 
 Das ist alles, tomorrow I'll get started on the actual schematic design.
+
+## Lens Board - Journal 3 - 20/05/2025 - 22/05/2025
+
+Actual schematic design is taking place!
+
+First of all, picking an mcu.
+
+This is mainly determined by the number of pins required, which is as below.
+
+For the audio visualizer, actually going to go with steppers, but some slightly nicer non plastic geared ones and have them running slowly so they don't make as much noise.
+
+### Pins:
+- <25 - Key Matrix
+- 2 - Rotary Encoder (scrolly wheel)
+- 1-2 - Faders
+- 5-11 - Regular Screen / Touchscreen
+- 10 - Audio Visualizer (1 per servo)
+- 1 - Neopixels
+Overall - <51 pins
+
+To this end, I've decided to go with the rp2040, which has 25 gpios, and use 2 mcp23017s to get it up to 57 total pins. I've used the rp2040 before on another little macropad, and its got really good design documents and spec sheets, so it should be easy enough to get it working and running qmk.
+
+I've already made a board using the rp2040 in the past, so I can luckily just copy the schematic over for the base design, and just add the key matrix, io expanders, and other stuff on top.
+
+### The keyboard layout
+As I've already said, this is going to be an 1800's compact layout, which is basically a fullsize keyboard but a bit squished. 
+
+1800's layouts typically have only a few of the navigation keys (home, end, pgup, pgdn, del, ins), but I've decided to include all of them, at the expense of a few utility keys (menu, prtsc, right ctrl, right alt, right win). I also have included two macro keys (m1 and m2) which will probably be just user defined.
+
+![Keyboard Layout](./keyboard-layout.png)
+
+### The schematic:
+
+After several hours of work, I've got the basic schematic done for the key matrix with the io expanders. I used a 19x6 matrix, which isn't the most efficient, but it makes routing and layout a lot easier than a 10x10 matrix, and doesn't take up too many extra pins (only 5 more than a 10x10 matrix).
+
+#### Key Matrix
+
+![Keyboard layout wiring](./keyboard-wiring.png)
+
+![Key Matrix Schematic](./key-matrix-schematic.png)
+
+#### Microcontroller
+
+![Microcontroller Schematic](./microcontroller-schematic.png)
+
+#### IO Expanders
+
+<sub>*GPA7 and GPB7 cannot be used as inputs*</sub>
+![IO expander schematic](./io-expander-schematic.png)
