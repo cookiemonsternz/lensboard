@@ -1,3 +1,10 @@
+---
+title: "Lens Board"
+author: "@Chris B"
+description: "Mechanical keyboard with physical elements :)"
+created_at: "2025-05-15"
+---
+
 # Lens Board - Journal 1 - 15/05/2025
 
 Lensboard is a keyboard! I did hackpad v1, but didn't get to do hackpad v2 due to exams :(
