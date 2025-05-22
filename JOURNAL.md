@@ -195,7 +195,7 @@ By controlling the rotation of the cam (because they're going to be steppers, no
 
 Das ist alles, tomorrow I'll get started on the actual schematic design.
 
-## Lens Board - Journal 3 - 20/05/2025 - 22/05/2025
+## Lens Board - Journal 3 - 20/05/2025 - 21/05/2025
 
 Actual schematic design is taking place!
 
@@ -242,4 +242,14 @@ After several hours of work, I've got the basic schematic done for the key matri
 #### IO Expanders
 
 <sub>*GPA7 and GPB7 cannot be used as inputs*</sub>
+
 ![IO expander schematic](./io-expander-schematic.png)
+
+Alright, thats all for today, continuing with the schematic tomorrow to finish up with the other components. Touchscreen is the only one I'm mildly concerned about, but it should be fine.
+
+# Lens Board - Journal 4 - 22/05/2025
+
+[Touchscreen](https://www.amazon.com/HiLetgo-240X320-Resolution-Display-ILI9341/dp/B073R7BH1B)
+
+I have finished the schematic for the keyboard!
+![Keyboard Schematic](./keyboard-schematic.png)
