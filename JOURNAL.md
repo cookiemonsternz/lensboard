@@ -27,11 +27,7 @@ Basically, this is a line of little rods, that move up and down based on a fft o
 
 Here is my amazing diagram:
 
-<img alt="A horizontal line of ten green rods, at various heights." src="./audio-visualiser-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![line of ten green rods](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/audio-visualiser-demo.png)
 
 And these little green bars will move up and down with audio.
 
@@ -41,11 +37,7 @@ Its a scrolly wheel!
 
 Apologies for my absolutely atrocious drawing skills, but here is what I'm thinking for the profile. 
 
-<img alt="Scrolly wheel diagram" src="./scrolly-wheel-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Scrolly Wheel](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/scrolly-wheel-demo.png)
 
 This will likely be 3d printed, and use a rotary encode so its nice and clicky.
 
@@ -53,11 +45,7 @@ This will likely be 3d printed, and use a rotary encode so its nice and clicky.
 
 I'm a bit of a lighting nerd, and as you know, lighting nerds love faders.
 
-<img alt="Fader (slide potentiometer / slider)" src="./fader-demo.png" style="width: 64px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Fader](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/fader-demo.png)
 
 This is just a user mappable fader, but I'll probably set it up as a lighting thing, so I can move it and have stuff happen with lights in my room lol.
 
@@ -67,16 +55,8 @@ I just like the idea of having a tiny little display in the corner.
 
 It'll probably have a little media control center or color picker for art stuff or lighting programming.
 
-<img alt="Media Player with album art" src="./touchscreen-demo-1.png" style="width: 128px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
-<img alt="HSV Color picker" src="./touchscreen-demo-2.png" style="width: 128px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Touchscreen](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/touchscreen-demo-1.png)
+![Color Picker](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/touchscreen-demo-2.png)
 
 #### Welp...
 Thats me for today! I'm gonna start some research on parts for tomorrow's entry, but thats my overall vision for this project. Looking forward to getting this going!
@@ -101,11 +81,7 @@ Basically, mount a rotary encoder horizontally, attach the wheel, and its done.
 
 This approach is nice and easy, but also might have some problems.
 
-<img alt="Scroll Wheel Encoder" src="./scrolly-wheel-encoder-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Rotary Encoder](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/scrolly-wheel-encoder-demo.png)
 
 When the user presses down on the opposite side of the wheel to the encoder, there might be some flex, and there could also be some problems with the encoder legs bending, which might be very annoying.
 
@@ -115,11 +91,7 @@ Option 2 is just a DC motor with a magnetic encoder.
 
 By doing this, you can have the microcontroller be aware of the wheel position as with a rotary encoder, but you can also move the motor to simulate the detents of a regular rotary encoder. You can also program it to have different motion profiles, like maybe a snap back to the center after moving.
 
-<img alt="Scroll Wheel Motor" src="./scrolly-wheel-motor-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Motor with Encoder](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/scrolly-wheel-motor-demo.png)
 
 Unfortunately, this approach has about all the cons you could think of:
 - More expensive
@@ -130,11 +102,7 @@ Unfortunately, this approach has about all the cons you could think of:
 
 **Ultimately**, I'm probably going to go with the rotary encoder, mainly because of space, but I need to find a way to hide the actual encoder and support the other end, maybe this kind of system:
 
-<img alt="Scroll Wheel with Case" src="./scrolly-wheel-case-demo.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Rotary Encoder with Support](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/scrolly-wheel-case-demo.png)
 
 But I also want the wheel to be above the case, so more thought is required.
 
@@ -144,19 +112,7 @@ I think maybe two faders would be better, just looking at the layout of the touc
 
 Heres my beautiful mockup of how it might look. This section will sit to the right of the keyboard and there are two main layouts I'm considering.
 
-<img alt="Scroll Wheel with Case" src="./layout-demo-1.png" style="width: 144px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;"> <img alt="Scroll Wheel with Case" src="./layout-demo-2.png" style="width: 144px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;"> <img alt="Scroll Wheel with Case" src="./layout-demo-3.png" style="width: 144px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Layout 1](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/layout-demo-1.png)![Layout 2](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/layout-demo-2.png)![Layout 3](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/layout-demo-3.png)
 
 Honestly, I don't mind all of these (ignoring the ugly colours lol), but I think either the first or third will be what I go with. It doesn't make too big of a difference to the electronics which I do, so for now I'll just design as if I'm doing the first one.
 
@@ -170,26 +126,19 @@ Well, I've had a bit of look and I've come up with a bit of a plan.
 First of all, choosing the motors.
 
 Aliexpress has once again come to the rescue, with some tiny steppers intended to be used in camera lenses, but will work perfectly fine for my use case. These are absolutely tiny motors, but they are fully dimensioned, which is an amazing attribute to have.
-![Motor Dimensions](motor-dimensions.png)
+
+![Stepper Motor](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/motor-dimensions.png)
 
 Now onto the actual mechanism for driving a pin.
 I'm going to use a basic cam follower mechanism, which not only ensures smooth transitions between positions, but is also probably the easiest method to build, having no gears which are hellish to 3d print.
 
-<img alt="Pin Mechanism" src="./pin-mechanism-demo.gif" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Pin Mechanism](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/pin-mechanism-demo.gif)
 
 By controlling the rotation of the cam (because they're going to be steppers, not DC motors), you can control the height of the pin.
 
 *Quick sidenote, but the cam profile could technically be better utilized than the above diagram in order to maximise the distance resolution per degree, if it were similar to the following profile:*
 
-<img alt="Spiral Cam Profile" src="./spiral-cam-profile.png" style="width: 256px;-ms-interpolation-mode: nearest-neighbor;
-  /* Firefox */
-  image-rendering: crisp-edges;
-  /* Chromium + Safari */
-  image-rendering: pixelated;">
+![Spiral Cam Profile](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/spiral-cam-profile.png)
 
 *But this also limits the cam to moving in one direction, and adds a sudden drop when looping, so a pear shaped cam is better for my requirements.*
 
@@ -223,7 +172,7 @@ As I've already said, this is going to be an 1800's compact layout, which is bas
 
 1800's layouts typically have only a few of the navigation keys (home, end, pgup, pgdn, del, ins), but I've decided to include all of them, at the expense of a few utility keys (menu, prtsc, right ctrl, right alt, right win). I also have included two macro keys (m1 and m2) which will probably be just user defined.
 
-![Keyboard Layout](./keyboard-layout.png)
+![Keyboard Layout](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-layout.png)
 
 ### The schematic:
 
@@ -231,19 +180,19 @@ After several hours of work, I've got the basic schematic done for the key matri
 
 #### Key Matrix
 
-![Keyboard layout wiring](./keyboard-wiring.png)
+![Keyboard layout wiring](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-wiring.png)
 
-![Key Matrix Schematic](./key-matrix-schematic.png)
+![Key Matrix Schematic](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/key-matrix-schematic.png)
 
 #### Microcontroller
 
-![Microcontroller Schematic](./microcontroller-schematic.png)
+![Microcontroller Schematic](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/microcontroller-schematic.png)
 
 #### IO Expanders
 
 <sub>*GPA7 and GPB7 cannot be used as inputs*</sub>
 
-![IO expander schematic](./io-expander-schematic.png)
+![IO expander schematic](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/io-expander-schematic.png)
 
 Alright, thats all for today, continuing with the schematic tomorrow to finish up with the other components. Touchscreen is the only one I'm mildly concerned about, but it should be fine.
 
