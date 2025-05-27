@@ -1,5 +1,5 @@
 
-(footprint HRO_TYPE-C-31-M-12 (layer F.Cu) (tedit 682EE616)
+(footprint HRO_TYPE-C-31-M-12 (layer F.Cu) (tedit 682F8C73)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at -1.85 -7.205 0) (layer F.SilkS)
