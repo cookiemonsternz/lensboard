@@ -5,6 +5,8 @@ description: "Mechanical keyboard with physical elements :)"
 created_at: "2025-05-15"
 ---
 
+**Time spent: 2 hours**
+
 # Lens Board - Journal 1 - 15/05/2025
 
 Lensboard is a keyboard! I did hackpad v1, but didn't get to do hackpad v2 due to exams :(
@@ -235,7 +237,7 @@ I finished the schematic on the 24th, and it wasn't too bad. I just chucked on t
 
 Alright, this one was a bit of a rocky road, but its pretty much done now...
 
-![PCB Components](<Screenshot 2025-05-22 205957.png>)
+![PCB Components](<https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/Screenshot 2025-05-22 205957.png>)
 
 #### Part 1. The Basics
 
@@ -250,13 +252,13 @@ I started by hunting JLCPCB parts for a couple suitable connectors, and miraculo
 
 After laying out the microcontroller section, I started routing it, starting with the usb D+ and D- lines, then the power lines (placing the decoupling caps as close as possible), and then the crystal and other random stuff.
 
-![Routed Microcontroller Section](<Screenshot 2025-05-27 205356.png>)
+![Routed Microcontroller Section](<https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/Screenshot 2025-05-27 205356.png>)
 
 Next up was the io expanders, which were just chucked on either end of the board, and then quickly routed. If you look at the actual routing, you might notice I have a lot of parallel traces, which is a bit iffy, but hopefully it'll be fine, because there's a ground plane and they're not too long or close.
 
 Getting the traces down to the actual key matrix was a pain, because there's 25 traces which have to cross the i2c lines, and in the end i kinda just gave up. There's a lot of vias, and a lot of bad practices, but I think it should be ok.
 
-![Finished PCB](<Screenshot 2025-05-28 075806.png>)
+![Finished PCB](<https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/Screenshot 2025-05-28 075806.png>)
 
 **Time Spent: 13 hours**
 
@@ -284,7 +286,7 @@ For servos, i'm just using a 3 pin header and I'll just hope that they all fit l
 
 Scrolly wheel I yet again found a encoder that was exactly what I needed, available on JLCPCB, and had footprints readily available. I went with the AlpsAlpine EC11 something something, I've used other pots of theirs before on my macropad (which is sitting right in front of me atm actually :), and it has the right form factor for my wheel to work well.
 
-![alt text](image-1.png)
+![alt text](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/image-1.png)
 
 I'm going to start working on the case now, so wish me luck! Fusion 360 is a hellscape for a blender person like me :(
 
@@ -311,7 +313,7 @@ Onwards!
 
 I tried a couple methods for getting the plate, but eventually just used [ai03's plate generator](https://kbplate.ai03.com/) and editing the final thing. This took way longer than I thought it would because fusion 360 kept on moving my plate around instead of resizing it. At the moment, I have a slightly better understanding of how it works, but I ended up having to redo everything three or four times before getting it right. Not only this, but because I kinda just eyeballed my pcb, I had some awkward dimensions to work with, but I think its all good now!
 
-![Keyboard Plate](image.png)
+![Keyboard Plate](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/image.png)
 
 **Time Spent: 3 hours**
 
@@ -351,7 +353,7 @@ I'm using some m2 threaded inserts, and I think I've got the right dimensions, b
 
 There are a total of 14 screws, 12 on the top and bottom edge, and an extra two in the middle. Hopefully this is enough to stick it together :)
 
-![Case Wireframe view showing holes](image-3.png)
+![Case Wireframe view showing holes](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/image-3.png)
 
 #### Servos
 
@@ -359,7 +361,7 @@ Not much to say here, I found a 3d model, added 10 in a line, and adapted the cu
 
 I'm pretty proud of the parts I made on the plate, as it was the first time I could actually get fusion to properly work how I wanted it. They're to support the pins and hopefully keep them vertical, although as I'm writing this I can forsee some issues with only one support section.
 
-![Servo Plate Slots](image-2.png)
+![Servo Plate Slots](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/image-2.png)
 
 \*Saving this for later, ignore please\*
 [link](https://www.aliexpress.com/item/1005006838108683.html?spm=a2g0o.productlist.main.14.320326cfewKQ9W&algo_pvid=1e4c2149-119d-42ee-bb56-cf44e9f5507b&algo_exp_id=1e4c2149-119d-42ee-bb56-cf44e9f5507b-13&pdp_ext_f=%7B%22order%22%3A%22142%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%215.91%214.22%21%21%213.50%212.50%21%40210308a417495335958211390e6073%2112000038467725083%21sea%21NZ%210%21ABX&curPageLogUid=Bb3fqsRIwcdQ&utparam-url=scene%3Asearch%7Cquery_from%3A#nav-specification)
@@ -371,6 +373,10 @@ l 3mm
 
 # Lens Board - Journal 10 - 11/06/2025
 
-I'm just going to call it done now. I added a little chamfer ish bit to the bottom to make it more than just a flat case.
+I'm just going to call it done now. I added a little chamfer ish bit to the bottom to make it more than just a flat case. It looks massively thick in the photos but in reality it's only very thick (only 5mm thicker than my current keyboard)
+
+![Finished Case](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/case.png)
+
+![Finished Case Chamfer](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/case-bottom.png)
 
 Now working on preparing for project submission / manufacturing.
