@@ -36,7 +36,8 @@ Anyways, here are some shots of my project :)
 | IO Extender (MCP23017) | 2   | [MCP23017](https://jlcpcb.com/partdetail/MicrochipTech-MCP23017T_EML/C629439)                  | JLCPCB Extended Parts Library | \~3 USD    |                                                                       |
 | LED MOSFET             | 1   | [IRLML6344TRPBF](https://jlcpcb.com/partdetail/TechPublic-IRLML6344TRPBF/C28646354)            | JLCPCB Extended Parts Library | Minimal    |                                                                       |
 | Slide Potentiometer    | 2   | [PTA3043](https://jlcpcb.com/partdetail/Bourns-PTA30432010CIB103/C5357832)                     | JLCPCB Extended Parts Library | \~4 USD    |                                                                       |
-OTHER COMPONENTS
+
+
 | Component       | Qty | Link                                                                     | Source      | Price     | Notes                                               |
 | --------------- | --- | ------------------------------------------------------------------------ | ----------- | --------- | --------------------------------------------------- |
 | Plate           | 1   | N/A                                                                      | JLCCNC      | \~50 USD  | Aluminum preferred; will explore cheaper materials  |
@@ -48,7 +49,8 @@ OTHER COMPONENTS
 | Keyswitches     | 100 | [Aliexpress Link](https://www.aliexpress.com/item/1005007534872693.html) | Aliexpress  | \~18 USD  | Prefer not to mix, though 30 spare switches on hand |
 | Keycaps         | 100 | [Aliexpress Link](https://www.aliexpress.com/item/1005008486798694.html) | Aliexpress  | \~5 USD   | TBD                                                 |
 | PCBA            | 1   | N/A                                                                      | JLCPCB      | \~100 USD | Hoping to reduce cost with coupons                  |
-TOTALS
+
+
 | Description                         | Qty | Link | Source | Price Estimate  |
 | ----------------------------------- | --- | ---- | ------ | --------------- |
 | Total (Pre-Coupons, with Shipping)  |     |      |        | \~210 USD |
