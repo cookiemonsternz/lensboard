@@ -36,6 +36,7 @@ Anyways, here are some shots of my project :)
 | IO Extender (MCP23017) | 2   | [MCP23017](https://jlcpcb.com/partdetail/MicrochipTech-MCP23017T_EML/C629439)                  | JLCPCB Extended Parts Library | \~3 USD    |                                                                       |
 | LED MOSFET             | 1   | [IRLML6344TRPBF](https://jlcpcb.com/partdetail/TechPublic-IRLML6344TRPBF/C28646354)            | JLCPCB Extended Parts Library | Minimal    |                                                                       |
 | Slide Potentiometer    | 2   | [PTA3043](https://jlcpcb.com/partdetail/Bourns-PTA30432010CIB103/C5357832)                     | JLCPCB Extended Parts Library | \~4 USD    |                                                                       |
+| Touchscreen            | 1   | [HiLetGo2.8"SPI](https://www.aliexpress.com/item/1005006623369442.html)                        | Aliexpress                    | \~6 USD    |                                                                       |
 
 
 | Component       | Qty | Link                                                                     | Source      | Price     | Notes                                               |
@@ -53,5 +54,5 @@ Anyways, here are some shots of my project :)
 
 | Description                         | Price Estimate  |
 | ----------------------------------- | --------------- |
-| Total (Pre-Coupons, with Shipping) | \~210 USD |
-| Total (Post-Coupons, with Shipping) | \~130 USD |
+| Total (Pre-Coupons, with Shipping)  | \~216 USD       |
+| Total (Post-Coupons, with Shipping) | \~136 USD       |
