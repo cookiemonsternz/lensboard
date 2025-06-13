@@ -5,7 +5,7 @@ description: "Mechanical keyboard with physical elements :)"
 created_at: "2025-05-15"
 ---
 
-**Time spent: 2 hours**
+**Total time spent: 52.5 hours**
 
 # Lens Board - Journal 1 - 15/05/2025
 
@@ -379,4 +379,22 @@ I'm just going to call it done now. I added a little chamfer ish bit to the bott
 
 ![Finished Case Chamfer](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/case-bottom.png)
 
-Now working on preparing for project submission / manufacturing.
+Also worked on checking prices for production, not looking great :(
+
+**Time Spent: 2 hours**
+
+# Lens Board - Journal 11 - 13/06/2025
+
+Hello! I've spent the last two days tidying up everything, reorganising, writing boms, and writing an actual readme instead of the journal. You can probably look at git if you want to see the major changes, but it's just generally making sure I meet the submission requirements.
+
+Just now I've spent the last couple of hours rendering my keyboard.
+
+I tried to do it in Fusion but gave up and just exported it to blender for rendering, and I must say, I think it looks pretty good.
+
+![Keyboard Render](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-1-lit.png)
+![Keyboard Render](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-2-lit.png)
+![Keyboard Render](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-3-lit.png)
+
+Literally submitting it as I speak, wish me luck :)
+
+**Time Spent: 4.5 hours**
