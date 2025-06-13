@@ -15,8 +15,7 @@ Anyways, here are some shots of my project :)
 ![Render of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-1-lit.png)
 ![Render of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-2-lit.png)
 ![Render of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-3-lit.png)
-https://github.com/user-attachments/assets/c497ad9b-a288-478b-a588-d2af06add98a
-
+<video width="1280" height="720" src="https://github.com/user-attachments/assets/c497ad9b-a288-478b-a588-d2af06add98a"></video>
 
 
 ### BOM
