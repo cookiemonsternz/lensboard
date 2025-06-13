@@ -49,7 +49,7 @@ OTHER COMPONENTS
 | Keycaps         | 100 | [Aliexpress Link](https://www.aliexpress.com/item/1005008486798694.html) | Aliexpress  | \~5 USD   | TBD                                                 |
 | PCBA            | 1   | N/A                                                                      | JLCPCB      | \~100 USD | Hoping to reduce cost with coupons                  |
 TOTALS
-| Description                         | Estimate  |
-| ----------------------------------- | --------- |
-| Total (Pre-Coupons, with Shipping)  | \~210 USD |
-| Total (Post-Coupons, with Shipping) | \~130 USD |
+| Description                         | Qty | Link | Source | Price Estimate  |
+| ----------------------------------- | --- | ---- | ------ | --------------- |
+| Total (Pre-Coupons, with Shipping)  |     |      |        | \~210 USD |
+| Total (Post-Coupons, with Shipping) |     |      |        | \~130 USD |
