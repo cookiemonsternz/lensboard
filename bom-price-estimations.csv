@@ -1,0 +1,31 @@
+Type,Qty,Link,Source,Price,Notes
+PCB COMPONENTS,,,,,
+SMD Cap,16,N/A,JLCPCB Standard Parts Library,Minimal,
+SMD Diode,100,https://jlcpcb.com/partdetail/Hongjiacheng-B0540WS/C7420326,JLCPCB Standard Parts Library,Minimal,
+SMD LED,100,https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603W/C2290,JLCPCB Standard Parts Library,~1 USD,
+SMD Resistor,108,N/A,JLCPCB Standard Parts Library,Minimal,Will source outside of pcba because needs to be placed on bottom of board
+DC Barrel Jack,1,https://jlcpcb.com/partdetail/ShouHan-DC005/C431533,JLCPCB Extended Parts Library,Minimal,Will source outside of pcba because needs to be placed on bottom of board
+USB Type C,1,https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12A/C5337088,JLCPCB Extended Parts Library,~0.25 USD,Getting 110 incase I stuff up
+Kailh Hotswap Sockets,100,https://www.aliexpress.com/item/1005007476614771.html?spm=a2g0o.productlist.main.1.525bRH2ZRH2ZiV&algo_pvid=81d4fa76-6d19-40a4-ba8a-b43cebb4969a&algo_exp_id=81d4fa76-6d19-40a4-ba8a-b43cebb4969a-0&pdp_ext_f=%7B%22order%22%3A%221968%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005007476614771%22%2C%22orig_item_id%22%3A%221005007052649640%22%7D&pdp_npi=4%40dis%21NZD%2123.07%2111.07%21%21%2198.08%2147.08%21%402101c80217496745003187253e3231%2112000040910888025%21sea%21NZ%210%21ABX&curPageLogUid=OjKYUA1dWlka&utparam-url=scene%3Asearch%7Cquery_from%3A,Aliexpress,~6.50 USD,"Min order 10, will try to find single unit for sale which will bring price down to ~0.4 USD"
+Rotary Encoder,1,https://www.aliexpress.com/item/1005005678408977.html?spm=a2g0o.productlist.main.4.18971047L1PSV5&aem_p4p_detail=20250611134303214240320254560001669584&algo_pvid=04cfb7e6-9369-46d4-bcd5-bdbbcfabf954&algo_exp_id=04cfb7e6-9369-46d4-bcd5-bdbbcfabf954-3&pdp_ext_f=%7B%22order%22%3A%222%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%217.24%217.09%21%21%2130.78%2130.16%21%402103246617496745829382899e3feb%2112000033986339255%21sea%21NZ%210%21ABX&curPageLogUid=0NIrTECDteaT&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=20250611134303214240320254560001669584_1,Aliexpress,~4 USD,
+RP2040,1,https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040,JLCPCB Extended Parts Library,~1 USD,Hopefully enough current? Not the one I originally specced but looks close enough
+Voltage Regulator,1,https://jlcpcb.com/partdetail/Tdsemic-AMS1117_33/C22466222,JLCPCB Extended Parts Library,Minimal,
+Flash Memory,1,https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521,JLCPCB Extended Parts Library,~0.8 USD,
+Crystal Oscillator,1,https://jlcpcb.com/partdetail/AbraconLlc-ABM8_272T3/C20625731,JLCPCB Extended Parts Library,~0.4 USD,
+IO Extender,2,https://jlcpcb.com/partdetail/MicrochipTech-MCP23017T_EML/C629439,JLCPCB Extended Parts Library,~3 USD,
+LED MOSFET,1,https://jlcpcb.com/partdetail/TechPublic-IRLML6344TRPBF/C28646354,JLCPCB Extended Parts Library,Minimal,
+Slide Potentiometer,2,https://jlcpcb.com/partdetail/Bourns-PTA30432010CIB103/C5357832,JLCPCB Extended Parts Library,~4 USD,
+Touchscreen,1,https://www.aliexpress.com/item/1005006623369442.html,Aliexpress,~6 USD,
+OTHER,,,,,
+Plate,1,N/A,JLCCNC,~50 USD,"This is as cheap as I could get it for aluminum, will try some other materials, but would like al."
+Top Case,1,N/A,3D Print (Me),~3 USD (NA),
+Bottom Case,1,N/A,3D Print (Me),~3 USD (NA),
+m2 Screw,14,N/A,Locally Sourced,~5 USD,Just gonna go to a random hardware store and find some
+Heatset Insert,28,"https://www.aliexpress.com/item/1005006838108683.html?spm=a2g0o.productlist.main.14.320326cfewKQ9W&algo_pvid=1e4c2149-119d-42ee-bb56-cf44e9f5507b&algo_exp_id=1e4c2149-119d-42ee-bb56-cf44e9f5507b-13&pdp_ext_f=%7B%22order%22:%22142%22,%22eval%22:%221%22%7D&pdp_npi=4@dis!NZD!5.91!4.22!!!3.50!2.50!@210308a417495335958211390e6073!12000038467725083!sea!NZ!0!ABX&curPageLogUid=Bb3fqsRIwcdQ&utparam-url=scene:search%7Cquery_from:#nav-specification",Aliexpress,~1.5 USD,This is for 100 but its small enough it doesn't matter :)
+PCB,1,JLCPCB,JPCPCB,,
+Keyswitches,100,https://www.aliexpress.com/item/1005007534872693.html?spm=a2g0o.productlist.main.6.7c3e1d05zhfOQz&algo_pvid=733b7ed0-ee97-41e7-88ba-72e92f4e085d&algo_exp_id=733b7ed0-ee97-41e7-88ba-72e92f4e085d-5&pdp_ext_f=%7B%22order%22%3A%225%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%214.85%213.00%21%21%212.86%211.77%21%402103246617497171846033790e400b%2112000041194203852%21sea%21NZ%210%21ABX&curPageLogUid=S5Qdw779KNkY&utparam-url=scene%3Asearch%7Cquery_from%3A,Aliexpress,~18 USD,"I do have like 30 switches if budget requires, but i'd prefer not to mix and match"
+Keycaps,100,https://www.aliexpress.com/item/1005008486798694.html?spm=a2g0o.productlist.main.3.7009addeR9bdc5&algo_pvid=8470b43b-ece4-4e75-a77a-8c6fba8f6d20&algo_exp_id=8470b43b-ece4-4e75-a77a-8c6fba8f6d20-2&pdp_ext_f=%7B%22order%22%3A%2257%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%219.00%217.31%21%21%2138.19%2131.02%21%40210337c117497173678727047edcaf%2112000045358341918%21sea%21NZ%210%21ABX&curPageLogUid=u54BlNhpyGGt&utparam-url=scene%3Asearch%7Cquery_from%3A,Aliexpress,~5 USD,Hmmmmmm
+PCBA,1,N/A,JLCPCB,~100 USD,Ouch - coupons save me please
+Total,,,,,
+"Total - Pre Coupons, incl. Shipping",,,,~216 USD,
+"Total - Post Coupons, incl. Shipping",,,,~136 USD,
