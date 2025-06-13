@@ -12,7 +12,9 @@ I decided to add a music visualizer because its just something I'm passionate ab
 
 Anyways, here are some shots of my project :)
 
-
+![Render of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-1-lit.png)
+![Render of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-2-lit.png)
+![Render of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keyboard-render-3-lit.png)
 ![Video Of keyboard](https://raw.githubusercontent.com/cookiemonsternz/lensboard/refs/heads/main/img/keybrender.mp4)
 
 ### BOM
