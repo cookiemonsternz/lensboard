@@ -51,7 +51,7 @@ Anyways, here are some shots of my project :)
 | PCBA            | 1   | N/A                                                                      | JLCPCB      | \~100 USD | Hoping to reduce cost with coupons                  |
 
 
-| Description                         | Qty | Link | Source | Price Estimate  |
-| ----------------------------------- | --- | ---- | ------ | --------------- |
-| Total (Pre-Coupons, with Shipping)  |     |      |        | \~210 USD |
-| Total (Post-Coupons, with Shipping) |     |      |        | \~130 USD |
+| Description                         | Price Estimate  |
+| ----------------------------------- | --------------- |
+| Total (Pre-Coupons, with Shipping) | \~210 USD |
+| Total (Post-Coupons, with Shipping) | \~130 USD |
