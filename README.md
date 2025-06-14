@@ -56,3 +56,14 @@ Anyways, here are some shots of my project :)
 | ----------------------------------- | --------------- |
 | Total (Pre-Coupons, with Shipping)  | \~216 USD       |
 | Total (Post-Coupons, with Shipping) | \~136 USD       |
+
+Actual Costs
+| Description                         | Price  |
+| ----------------------------------- | ------ |
+| PCB + PCBA + shipping               | 198.41 |
+| Aliexpress Components + shipping    | 41.71  |
+| ----------------------------------- | ------ |
+| Total pre coupons                   | 240.12 |
+| Total Post coupons                  | 160.12 |
+
+*This is without the plate, as I couldn't fit it into the budget. I am planning on machining this using my schools cnc.
