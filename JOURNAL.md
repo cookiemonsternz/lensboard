@@ -398,3 +398,37 @@ I tried to do it in Fusion but gave up and just exported it to blender for rende
 Literally submitting it as I speak, wish me luck :)
 
 **Time Spent: 4.5 hours**
+
+# Lens Board - Journal 12 - 20/06/2025
+
+Alrighty,
+I'm back for one last journal before fabrication. Today I'm going to try and cut the cost down significantly, as the total cost of the project is currently a bit insane. 
+
+First thing to try:
+Reduce board size.
+
+Because of my weirdly shaped board:
+![alt text](image.png)
+The price of the pcb will likely go up, just because the milling process requires more materials for oddly shaped, non tesselating boards. If I split the top section into a seperate board, then I can potentially reduce costs significantly.
+
+Looking at JLCPCB's quoting service, my current board costs $45.30,  through some quick calculations, If i split the board into two, it would cost a total of...
+$34.80, for a total savings of $10.50. Well. Not exactly the savings I was hoping for...
+
+Checking the BOM again, I think the pcba is almost certainly the cause of this cost (~$100), so if I can bypass this it would save me a lot of money.
+
+### Technique 1 : Only pcba smd parts
+
+I'm thinking if I only use pcba for the rp2040 and other chips that are impossible to hand solder, it should cut costs down significantly.
+
+Just gone through the quoting process, and it turns out that this isn't actually much of a cost saver. it did lower it from $100 to $90, but $55 is just the large board fee. I'm now going to try doing the same thing for the smaller board, and see if the large board fee still applies.
+
+Ouch. Still there, so need to try another method.
+
+What if I put the rp2040, io expanders, crystal, and all the other hellish components on a daughter board with the connectors?
+This might not be great because then I have like 30 or so wires I need to cross over from one board to the other, but I do have a potential idea.
+
+![Stacked pcbs](img/stacked-headers.png)
+
+If I overlap the two boards, and have some pin headers extending upwards and connecting them, not only do I get a good and easy connection, but its also very cheap. 
+
+I'm going to do a test run of this, which might be a bit painful, as it requires rerouting the entire pcb, but I can forsee major cost savings. 
