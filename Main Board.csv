@@ -1,0 +1,15 @@
+Item,Part Name,Quantity,Source,Link,Unit Cost,Total Cost,Notes
+BOARD,PCB Board,1,JLCPCB,NA,5.38,5.38,"default settings (1.6mm fr4), this is assuming 5 ordered, and this is the cost of 1"
+J1,2x30 Pin Header,1,Aliexpress,https://www.aliexpress.com/item/32214180690.html?spm=a2g0o.productlist.main.11.62007aa28osNlK&algo_pvid=4aeb8a1d-9196-4dce-9fd8-8f74cdbfb503&algo_exp_id=4aeb8a1d-9196-4dce-9fd8-8f74cdbfb503-10&pdp_ext_f=%7B%22order%22%3A%2212%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%210.76%210.76%21%21%210.76%210.76%21%402103246617503783498077610ef0cd%2112000023678787662%21sea%21NZ%212895682434%21X&curPageLogUid=gqU9QpHzRo8G&utparam-url=scene%3Asearch%7Cquery_from%3A,0.15,0.15,
+"R109, R110",Slide Potentiometer,2,Mouser,https://nz.mouser.com/ProductDetail/Bourns/PTA3043-2010CIB103?qs=QARuOjD9jaF0iQfIvhCxcQ%3D%3D,1.4,2.8,"This is a hard part to find on aliexpress, I'm going to adapt my pcb to the ones I currently have, but be very careful how you choose this part"
+U7,LED Transistor,1,Aliexpress,https://www.aliexpress.com/item/32966478417.html,0.04,0.81,"Again, find one with the same footprint and similar specs"
+SW101,Rotary Encoder,1,Aliexpress,https://www.aliexpress.com/item/1005008562951299.html?spm=a2g0o.productlist.main.2.694610473NnPbb&algo_pvid=771bf3ee-44f4-41f8-acc5-89f292c9e139&algo_exp_id=771bf3ee-44f4-41f8-acc5-89f292c9e139-1&pdp_ext_f=%7B%22order%22%3A%22-1%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%213.08%212.74%21%21%2122.00%2119.58%21%402103146c17504851750608347e0951%2112000045732012789%21sea%21NZ%212895682434%21X&curPageLogUid=0EsiDwbyuniA&utparam-url=scene%3Asearch%7Cquery_from%3A,0.27,2.74,Same as above
+SW1 - SW 100,Keyswitches,100,Aliexpress,https://www.aliexpress.com/item/1005009054805658.html,0.23,22.81,Assuming ordering 100
+D1 - D100,Key Diodes,100,Aliexpress,https://www.aliexpress.com/item/1005005460442161.html,0.01,0.61,Assuming ordering 100
+D101 - D200,Backlight LEDs,100,Aliexpress,https://www.aliexpress.com/item/1005005226854182.html,0.01,1.45,Assuming ordering 100
+R9 - R108,LED Resistor,100,Aliexpress,https://www.aliexpress.com/item/1005003297851656.html,0.02,1.7,Assuming ordering 100
+"J3, J4",Touchscreen,1,Aliexpress,https://www.aliexpress.com/item/1005004055677573.html,6.95,6.95,With touch
+M1 - M10,Servo ,10,Aliexpress,https://www.aliexpress.com/item/1005008626768357.html,1.8,18.29,10x 180° MG90s
+Total Cost,,,,,,,
+Single Board,,,,,,63.69,
+Min Order (JLCPCB),,,,,,103.11,"Only min order for jlcpcb, not for j1, all others already are min order."

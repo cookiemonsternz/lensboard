@@ -408,7 +408,7 @@ First thing to try:
 Reduce board size.
 
 Because of my weirdly shaped board:
-![alt text](image.png)
+![alt text](img/weird-board-shape.png)
 The price of the pcb will likely go up, just because the milling process requires more materials for oddly shaped, non tesselating boards. If I split the top section into a seperate board, then I can potentially reduce costs significantly.
 
 Looking at JLCPCB's quoting service, my current board costs $45.30,  through some quick calculations, If i split the board into two, it would cost a total of...
@@ -432,3 +432,40 @@ This might not be great because then I have like 30 or so wires I need to cross 
 If I overlap the two boards, and have some pin headers extending upwards and connecting them, not only do I get a good and easy connection, but its also very cheap. 
 
 I'm going to do a test run of this, which might be a bit painful, as it requires rerouting the entire pcb, but I can forsee major cost savings. 
+
+EPIC MONTAGE!
+![All my hard work erased](img/montage-1.png)
+
+![Splitting the schematic](img/montage-2.png)
+
+*Need 50 pins, jeepers*
+
+![2x30 pin header](img/montage-3.png)
+
+![Main board routed!](img/montage-4.png)
+
+![Ye gods, this is hellish](img/montage-5.png)
+
+![Start of routing the daughter board](img/montage-6.png)
+
+![Continuing routing the daughter board](img/montage-7.png)
+
+![Daughter Board finished!](img/montage-8.png)
+
+Alrighty! I've split the board, now its time to see if I actually saved any money...
+
+The daughter board, including pcba, costs a grand total of \$21.96 a piece, or for the minimum order size, \$46.17.
+
+The main board costs a total of \$5.38 a piece, or \$26.90 for the minimum order.
+
+This gives a grand total of around \$27.34 per board or \$73.07 for the minimum order, including only the jlcpcb elements of course. But overall, this is a massive improvement compared to the previous cost of \$147.87. That is, of course, if you don't mind hand soldering 300 smd components...
+
+Super happy with this, but now I've got a few boms to rewrite, so I'll update this again in half an hour.
+
+Boms rewritten! Spoiler alert, it didn't take half an hour, but I do now have the total cost for the whole project.
+
+The minimum cost (excl shipping, per unit price) is \$114. Minimum cost considering minimum order quantities is \$160.13, and the cost of a minimum order with shipping is \$168.94. For those interested, you can find the BOMs [here](https://docs.google.com/spreadsheets/d/1ZwZEnQPNZCf3j8q_c9diwTeRiC4rXLwVUGGG0oGG0jM/edit?usp=sharing).
+
+I've slightly begun work on the case, but I'm going to do some work on other stuff today and finish it tomorrow, and then that will be the keyboard done (for the second time).
+
+**Time Spent: 8 hours**

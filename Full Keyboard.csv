@@ -1,0 +1,13 @@
+Item,Part Name,Quantity,Source,Link,Unit Cost,Total Cost,Notes
+MAIN,Main Board,1,Various,NA,81.59,103.11,Total cost is different because of minimum orders
+SUB,Daughter Board,1,Various,NA,21.96,46.17,"Same as above, see individual boms"
+CASEB,,1,3d printing,NA,NA,NA,"3d printing this myself, not enough filament to compensate"
+CASET,,1,3d printing,NA,NA,NA,"3d printing this myself, not enough filament to compensate"
+PLATE,,1,Laser cut / cnc,NA,NA,NA,"3d printing this myself, not enough filament to compensate"
+INS,Heatset inserts,100,Aliexpress,https://www.aliexpress.com/item/1005006838108683.html,0.03,2.72,"OD 3.2, L3, M2, This is for 100, but couldn't find any smaller amounts"
+STA,Standoffs,20,Aliexpress,https://www.aliexpress.com/item/1005002952338852.html,0.13,2.69,"M2, 12mm, 20 pc"
+KC,Keycaps,100,Aliexpress,https://www.aliexpress.com/item/1005008486798694.html,0.05,5.44,
+Total Cost,,,,,,,
+Single Board,,,,,,114.4,
+Total Cost (excl. Shipping),,,,,,160.13,
+Total Cost (incl. Shipping),,,,,,168.94,"Aliexpress parts = 70.60, JLCPCB = 98.34"
