@@ -5,7 +5,7 @@ description: "Mechanical keyboard with physical elements :)"
 created_at: "2025-05-15"
 ---
 
-**Total time spent: 52.5 hours**
+**Total time spent: 64.5 hours**
 
 # Lens Board - Journal 1 - 15/05/2025
 
@@ -469,3 +469,27 @@ The minimum cost (excl shipping, per unit price) is \$114. Minimum cost consider
 I've slightly begun work on the case, but I'm going to do some work on other stuff today and finish it tomorrow, and then that will be the keyboard done (for the second time).
 
 **Time Spent: 8 hours**
+
+# Lens Board - Journal 13 - 24/06/2025
+
+Hello again!
+
+I've spent the last four days swapping between my other ongoing project and this one, and I've just managed to finally finish up the case design. 
+
+As it stands, it's made of three pieces, roughly the same as the last design. However, this time its way thinner, as I've angled the the top at 2.5 degrees which means at the top of the keyboard, theres room for the servos, while at the bottom, theres not a ton of extra space underneath.
+
+The seperation of the pcbs also helped, as I was able to add a little cutout in the mainboard which the servos nicely fit in to.
+
+![Bottom case](img/new-case-bottom.png)
+
+![Plate](img/new-cast-plate.png)
+
+![Top Case](img/new-case-top.png)
+
+![Bottom case and pcbs](img/new-case-bottom-and-pcb.png)
+
+![Ports section](img/ports-no-board.png)
+
+![Ports section with ports](img/ports-board.png)
+
+**Time Spent: 6 hours**
